@@ -44,6 +44,5 @@ reminder = Person.new.reminder
 
 puts reminder
 
-
 ### DO USE refinement only when you absolutely need to Monkey patch. It's not a good practice in general. ###
 ### When monkey patching is handy is when something like new version of active storage is out and you are not ready to upgrade the rails app yet, you can go copy the code from new version and do a Monkey patch. Then when you are ready to upgrade to a newer version, delete monkey patch and upgrade. Since it's the same code there shouldn't be issues when upgrading the app.
