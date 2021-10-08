@@ -12,7 +12,7 @@ require 'active_support/all'
 module TimeHelpers
   refine Integer do
     def hours
-      30 * minutes
+      60 * minutes
     end
 
     def minutes
