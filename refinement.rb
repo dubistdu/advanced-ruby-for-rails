@@ -1,7 +1,7 @@
 # *Monkey Patching
 # In Ruby, a Monkey Patch (MP) is referred to as a dynamic modification to a class and by a dynamic modification to a class means to add new or overwrite existing methods at runtime. This ability is provided by ruby to give more flexibility to the coders.
 
-# *Using refinement for safer Monkey fetching
+# *Using refinement for safer Monkey fetching *
 
 # Monkey patching can lead to really painful debugging if you accidentally override someone else's monkey patch. 
 
