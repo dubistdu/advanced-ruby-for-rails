@@ -5,7 +5,9 @@
 
 # Monkey patching can lead to really painful debugging if you accidentally override someone else's monkey patch. 
 
-# Ruby introduced refinements to keep monkey patches organized and explicit. We'll walk through how to use those to keep our monkey patches safe.
+# Ruby introduced refinements to keep monkey patches organized and explicit. 
+# We'll walk through how to use those to keep our monkey patches safe.
+
 require 'active_support/all'
 
 # example) refining Integer class
@@ -22,7 +24,7 @@ module TimeHelpers
     def days
       24 * hours
     end
-  end
+  end 
 end
 
 # this can be used locally and globally
